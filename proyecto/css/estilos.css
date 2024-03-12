@@ -29,6 +29,14 @@ h1 {
     text-align: center;
 }
 
+p, label { 
+    font-size: var(--normal);
+}
+
+label {
+    padding-bottom: var(--space);
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -144,8 +152,32 @@ nav li a:hover{
     font-size: var(--normal);
 }
 
+/* venta */
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.data{
+    margin-top: var(--space);
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid var(--black-color);
+}
 
 
+.modulo_pago_image {
+    max-width: 200px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modulo_pago_image img {
+    width: 100%;
+}
 
 
 
