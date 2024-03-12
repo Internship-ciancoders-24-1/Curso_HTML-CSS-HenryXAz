@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .products {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .main_section {
+        padding: 4%;
+    }
+    
+    .benefits {
+        flex-direction: column;
+    }
+
+    .benefit {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .profile_cards {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+}

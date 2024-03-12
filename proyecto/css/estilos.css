@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* variables */
+
+:root {
+    --green-color: #7ACC2D;
+    --white-color: #fff;
+    --black-color: #313337;
+    /* tipografía */
+    --normal: 12px;
+    /* espacing */
+    --space: 10px;
+
+    /* box shadow */
+    --box: 0 0 2px 1px #e6e5e9;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    font-size: var(--normal);
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green-color);
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+
+    background-image: url('../images//wave.svg'); 
+    background-size: cover;
+    background-position: center top;
+    height: 10px;
+    padding: 15%;
+}
+
+.product {
+    margin: 0 auto;
+    padding: var(--space);
+    margin-top: -300px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--green-color);
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 17px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+    cursor: pointer;
+}
+
+.benefits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.benefit {
+    width: 30%;
+    text-align: center;
+    box-shadow: var(--box);
+}
+
+.profile_cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--space);
+    overflow-x: auto;
+}
+
+.profile {
+    width: 200px;
+    box-shadow: var(--box);
+    padding: var(--space);
+    text-align: center;
+}
+
+.footer {
+    padding: var(--space);
+    background-color: #385170;
+    margin-top: 50px;
+}
+
+.footer h6 {
+    text-align: center;
+    color: var(--white-color);
+    font-size: var(--normal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
